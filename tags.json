@@ -1,0 +1,74 @@
+{
+  "selfbot": [
+    "Your server has been **suspended permanently** due to the use of a **self-bot**, which is a direct violation of [Discord’s Terms of Service](<https://support.discord.com/hc/en-us/articles/115002192352-Automated-User-Accounts-Self-Bots>).",
+    "Self-bots are strictly prohibited as they provide unauthorized automation, compromising platform integrity and security. As a result, your server and its contents are no longer accessible and will not be unsuspended.",
+    "Unfortunately, you **CANNOT** recover any files or data from the server, as it was your responsibility to maintain backups of your content (see our [Terms of Service](<https://client.sillydev.co.uk/tos>) and [Fair Use Policy](<https://client.sillydev.co.uk/fairuse>)). We do not take any **responsibility** for **lost data** or **server content** due to this violation."
+  ],
+  "selfbot-account": [
+    "Your account has been **suspended permanently** due to the use of a **self-bot**, which is a direct violation of [Discord’s Terms of Service](<https://support.discord.com/hc/en-us/articles/115002192352-Automated-User-Accounts-Self-Bots>).",
+    "Self-bots are strictly prohibited as they provide unauthorized automation, compromising platform integrity and security. As a result, your account is no longer accessible and will not be reinstated.",
+    "Unfortunately, you **CANNOT** recover any files or data from the server, as it was your responsibility to maintain backups of your content (see our [Terms of Service](<https://client.sillydev.co.uk/tos>) and [Fair Use Policy](<https://client.sillydev.co.uk/fairuse>)). We do not take any **responsibility** for **lost data** or **server content** due to this violation."
+  ],
+  "bot-maker": [
+    "Your server has been **suspended permanently** due to the use of a **bot maker**.",
+    "Bot makers typically consume excessive RAM and cause disruptions to the platform's performance. These bots negatively affect network stability and violate our policies regarding responsible resource use. As a result, your server and its contents are no longer accessible and will not be unsuspended.",
+    "Unfortunately, you **CANNOT** recover any files or data from the server, as it was your responsibility to maintain backups of your content (see our [Terms of Service](<https://client.sillydev.co.uk/tos>) and [Fair Use Policy](<https://client.sillydev.co.uk/fairuse>)). We do not take any **responsibility** for **lost data** or **server content** due to this violation."
+  ],
+  "bypasser": [
+    "Your server has been **suspended permanently** due to the use of a **Bypasser Bot**, which is a direct violation of [Our Fair Use Policy](<https://client.sillydev.co.uk/fairuse>) and [Terms of Service](<https://client.sillydev.co.uk/tos>).",
+    "Bypasser Bots are unauthorized automated systems that disrupt the platform’s operations and attempt to evade restrictions. The use of such bots compromises the integrity of our network and security, and violates our policies. As a result, your access to the server has been **permanently revoked**.",
+    "Unfortunately, you **CANNOT** recover any files or data from the server, as it was your responsibility to maintain backups of your content. Please refer to our [Terms of Service](<https://client.sillydev.co.uk/tos>) and [Fair Use Policy](<https://client.sillydev.co.uk/fairuse>) for more details."
+  ],
+  "whatsapp": [
+    "Your server has been **suspended permanently** due to the use of a **WhatsApp Bot**, which is a direct violation of [Our Fair Use Policy](<https://client.sillydev.co.uk/fairuse>) and [Terms of Service](<https://client.sillydev.co.uk/tos>).",
+    "WhatsApp Bots are typically poorly coded automated systems that consume excessive resources and cause disruptions to the platform's performance. These bots negatively affect network stability and violate our policies regarding responsible resource use. As a result, your access to the server has been **permanently revoked**.",
+    "Unfortunately, you **CANNOT** recover any files or data from the server, as it was your responsibility to maintain backups of your content. Please refer to our [Terms of Service](<https://client.sillydev.co.uk/tos>) and [Fair Use Policy](<https://client.sillydev.co.uk/fairuse>) for more details."
+  ],
+  "resource-limits": [
+    "### Resource Limits\n- **CPU**: 100%\n- **RAM/Memory**: 2048MiB / 2GiB\n- **Storage**: 3096MiB / 3GiB\n- **Ports**: 2\n- **Backups**: 2\n- **Databases**: 2"
+  ],
+  "puppeteer": [
+    "Using any crawlers such as Puppeteer which requires chromium drivers to be installed on the system is officially unsupported. We will not install any dependencies manually for you."
+  ],
+  "deps-python": [
+    "If you want to install pip dependencies in a Python server, the recommended method is to use `pip freeze > requirements.txt` command in your PC and then upload the newly created **requirements.txt** file into the server.",
+    "If you want to do it without using requirements.txt, first, go to the Startup tab. Inside, you will find an option named \"Additional Python Packages\". Put the name of the dependencies you want to install inside the input box (for example: `discord.py flask`)",
+    "-# Note: if you created your server with the Python Custom Startup node, then you can just set the pip install command as the startup command."
+  ],
+  "deps-node": [
+    "If you want to install npm packages in a Node.js server, the recommended method is to upload your **package.json** file to the server.",
+    "If you want to do it without using package.json, first, go to the Startup tab. Inside, you will find an option named \"Additional Node Packages\". Put the name of the packages you want to install inside the input box (for example: `discord.js express`)",
+    "-# Note: if you created your server with the Node.js Custom Startup node, then you can just set the npm install command as the startup command."
+  ],
+  "slots": [
+    "Our services are used by thousands of people at a time. To ensure stability of the services, we limit the amount of servers that can be created on each machine. This means that once this limit has been reached, no one is able to create any more servers.",
+    "Unfortunately, we cannot manually increase the slots or make exceptions for a specific user. If you want to create a server but none of the locations have any free slots available, then you can wait from one day up to five days for slots to be freed.",
+    "Automatic deletion of suspended servers occur every midnight in UTC, or <t:1748217600:t> in your timezone (not accounting for DST). This frees up some slots, so you can also wait for that."
+  ],
+  "maintenance": [
+    "The node you are using is currently under maintenance. The developers are working hard to resolve this issue.",
+    "You can stay tuned about this incident at <#1152943407627505746>, where the developers will be posting updates."
+  ],
+  "down": [
+    "The node you are using is currently having some issues. The developers are working hard to resolve this issue.",
+    "You can stay tuned about this incident at <#1152943407627505746>, where the developers will be posting updates."
+  ],
+  "rate-limit": [
+    "Your bot couldn't connect because the node it's hosted on was rate limited by Discord.",
+    "Since we're a shared hosting provider, multiple users share the same machines. Sometimes, a few users send too many requests to Discord, either by mistake or on purpose, which gets the entire node blocked by Discord.",
+    "Our team actively monitors and bans these abusive servers as soon as we detect them. However, once a node is rate limited, there's not much we can do to unblock it.",
+    "### What can you do?\n- Delete your current server and create a new one in a different location.\n- Consider using our [paid servers](<https://sillydev.co.uk/services>), which have better protection and rarely face this issue."
+  ],
+  "suspended": [
+    "### Common reasons for suspension\n- Hosting Discord self-bots or bypasser bots _(breaks terms of service of third party services)_\n- Breaking Discord's Terms of Service and/or Developer Policy by spamming requests, sending mass-dms, etc. _(breaks terms of service of third party services)_\n- Hosting Minecraft bots\n- Constantly using maximum resources (cpu, ram, etc.)\n- Making excessive amounts of network requests",
+    "### Why was _my_ server suspended?\nIf you want to know specifically why your server was suspended, create a suspension ticket in <#1006122978842517534>, and send the link to your server in the ticket."
+  ],
+  "server-id": [
+    "### How to get my server's ID?\nGo to your server, and in the link, there should be some random text consisting of letters and numbers that is 8 characters long.",
+    "If your server's link is **https://panel.sillydev.co.uk/server/a1b2c3d4**, then your server's ID is **`a1b2c3d4`**."
+  ],
+  "oauth-password": [
+    "### How can I know my account's password?\nIf you logged in with OAuth2 (Discord or Google registration), then you were given a random password. If you need to add a password to your account, then you'll need to do these steps:",
+    "1. Log out of your account in the panel\n2. Sign in, and when it asks you for your username and password, click on \"Forgot Password\".\n3. Input the email you have in your Discord or Google account (if you changed it after registering on the panel, then you'll likely have to use the old email).\n4. Submit the request, and you should get a mail sent to the email address you provided.\nYou can then follow the steps given in that email to change your password."
+  ]
+}
