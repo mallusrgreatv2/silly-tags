@@ -70,5 +70,10 @@
   "oauth-password": [
     "### How can I know my account's password?\nIf you logged in with OAuth2 (Discord or Google registration), then you were given a random password. If you need to add a password to your account, then you'll need to do these steps:",
     "1. Log out of your account in the panel\n2. Sign in, and when it asks you for your username and password, click on \"Forgot Password\".\n3. Input the email you have in your Discord or Google account (if you changed it after registering on the panel, then you'll likely have to use the old email).\n4. Submit the request, and you should get a mail sent to the email address you provided.\nYou can then follow the steps given in that email to change your password."
+  ],
+  "code-help": [
+    "Hello! The issue you are having seems to be related to **the code** that you are using, and unrelated to SillyDev hosting. Therefore, we will not be answering your question in a ticket.",
+    "Tickets are a place where you can ask for help with issues or questions related to SillyDev. For example, questions related to server renewals or purchases. Issues that happen due to faults in your code is not a valid reason to create a ticket.",
+    "If you require help with your code, you can move to any of these channels:\n- Python help: <#1167884636509196419>\n- Javascript Help: <#1167886249718186044>"
   ]
 }
