@@ -75,5 +75,10 @@
     "Hello! The issue you are having seems to be related to **the code** that you are using, and unrelated to SillyDev hosting. Therefore, we will not be answering your question in a ticket.",
     "Tickets are a place where you can ask for help with issues or questions related to SillyDev. For example, questions related to server renewals or purchases. Issues that happen due to faults in your code is not a valid reason to create a ticket.",
     "If you require assistance with your code, you can move to any of these channels:\n- Python help: <#1167884636509196419>\n- Javascript help: <#1167886249718186044>"
+  ],
+  "renewal": [
+    "The renewal system exists in free panel because the free panel is easily accessible. Since we have a large amount of users and limited resources, if renewal didn't exist, new users wouldn't be able to create new servers at all.",
+    "Renewing your server is a way to tell SillyDev that you still care about the server and want to keep it running. If you don't renew your server, your server will automatically deleted after a few days, which opens up slots for other users who might need it.",
+    "-# Auto renewals will never be added. It is counter-intuitive to the actual purpose of the renewal system mentioned above. (denied by owner here: https://discord.com/channels/921530640510382100/937009951082156054/1331026324390940722)"
   ]
 }
