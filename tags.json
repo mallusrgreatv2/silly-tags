@@ -43,7 +43,7 @@
   "slots": [
     "Our services are used by thousands of people at a time. To ensure stability of the services, we limit the amount of servers that can be created on each machine. This means that once this limit has been reached, no one is able to create any more servers.",
     "Unfortunately, we cannot manually increase the slots or make exceptions for a specific user. If you want to create a server but none of the locations have any free slots available, then you can wait from one day up to five days for slots to be freed.",
-    "Automatic deletion of suspended servers occur every midnight in UTC, or <t:1748217600:t> (this time is displayed in your time zone, not accounting for DST) [<t:$$Math.round(new Date(Date.UTC(new Date().getUTCFullYear(), new Date().getUTCMonth(), new Date().getUTCDate() + 1)).getTime() / 1000)$$:R>]. This frees up some slots, so you can also wait for that."
+    "Automatic deletion of suspended servers occur every midnight in UTC, or <t:Math.round(new Date(Date.UTC(new Date().getUTCFullYear(), new Date().getUTCMonth(), new Date().getUTCDate() + 1)).getTime() / 1000)$$:t> [<t:$$Math.round(new Date(Date.UTC(new Date().getUTCFullYear(), new Date().getUTCMonth(), new Date().getUTCDate() + 1)).getTime() / 1000)$$:R>]. This frees up some slots, so you can also wait for that."
   ],
   "maintenance": [
     "The node you are using is currently under maintenance. The developers are working hard to resolve this issue.",
