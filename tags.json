@@ -46,7 +46,7 @@
     "Automatic deletion of suspended servers occur every midnight in UTC, or **<t:$$Math.round(new Date(Date.UTC(new Date().getUTCFullYear(), new Date().getUTCMonth(), new Date().getUTCDate() + 1)).getTime() / 1000)$$:t>** [**<t:$$Math.round(new Date(Date.UTC(new Date().getUTCFullYear(), new Date().getUTCMonth(), new Date().getUTCDate() + 1)).getTime() / 1000)$$:R>**]. This frees up some slots, so you can also wait for that."
   ],
   "slots-time": [
-    "Suspended servers will be automatically deleted at **<t:$$Math.round(new Date(Date.UTC(new Date().getUTCFullYear(), new Date().getUTCMonth(), new Date().getUTCDate() + 1)).getTime() / 1000)$$:t>** [**<t:$$Math.round(new Date(Date.UTC(new Date().getUTCFullYear(), new Date().getUTCMonth(), new Date().getUTCDate() + 1)).getTime() / 1000)$$:R>**]."
+    "New slots will open up at **<t:$$Math.round(new Date(Date.UTC(new Date().getUTCFullYear(), new Date().getUTCMonth(), new Date().getUTCDate() + 1)).getTime() / 1000)$$:t>** [**<t:$$Math.round(new Date(Date.UTC(new Date().getUTCFullYear(), new Date().getUTCMonth(), new Date().getUTCDate() + 1)).getTime() / 1000)$$:R>**]."
   ],
   "maintenance": [
     "The node you are using is currently under maintenance. The developers are working hard to resolve this issue.",
