@@ -67,8 +67,9 @@
     "### What can you do?\n- Delete your current server and create a new one in a different location.\n- Consider using our [paid servers](<https://sillydev.co.uk/services>), which have better protection and rarely face this issue."
   ],
   "suspended": [
-    "### Common reasons for suspension\n- Hosting Discord self-bots or bypasser bots _(breaks terms of service of third party services)_\n- Breaking Discord's Terms of Service and/or Developer Policy by spamming requests, sending mass-dms, etc. _(breaks terms of service of third party services)_\n- Hosting Minecraft bots\n- Constantly using maximum resources (cpu, ram, etc.)\n- Making excessive amounts of network requests",
-    "### Why was _my_ server suspended?\nIf you want to know specifically why your server was suspended, create a suspension ticket in <#1006122978842517534>, and send the link to your server in the ticket."
+    "### Common Reasons for Suspension\n- Hosting self-bots or bypass bots (violates Discord's TOS)\n- Spamming, mass DMing, or other abusive behavior (also breaks Discord's Developer Policy)\n- Hosting Minecraft automation bots\n- Consistently maxing out server resources (CPU, RAM, etc.)\n- Sending too many network requests (can trigger abuse protection)",
+    "### TOS & Fair Use Reminder\nThis isn't a full list. For all the rules, check our [Terms of Service](https://client.sillydev.co.uk/tos) and [Fair Use Policy](https://client.sillydev.co.uk/fairuse).",
+    "### Why was *my* server suspended?\nOpen a suspension ticket in <#1006122978842517534> and include your server link. The staff team will guide you through the reason as to why your server was suspended."
   ],
   "server-id": [
     "### How to get my server's ID?\nGo to your server, and in the link, there should be some random text consisting of letters and numbers that is 8 characters long.",
