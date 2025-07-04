@@ -72,8 +72,8 @@
     "### Why was *my* server suspended?\nOpen a suspension ticket in <#1006122978842517534> and include your server link. The staff team will guide you through the reason as to why your server was suspended."
   ],
   "server-id": [
-    "### How to get my server's ID?\nGo to your server, and in the link, there should be some random text consisting of letters and numbers that is 8 characters long.",
-    "If your server's link is **https://panel.sillydev.co.uk/server/a1b2c3d4**, then your server's ID is **`a1b2c3d4`**."
+    "### How do I find my server ID?\nTo locate your server ID, go to your server's page on the panel. The URL will contain an 8-character string of letters and numbers. That is your server ID.",
+    "For example, if the URL is **https://panel.sillydev.co.uk/server/a1b2c3d4**, then your server ID is **`a1b2c3d4`**."
   ],
   "oauth-password": [
     "### How can I know my account's password?\nIf you logged in with OAuth2 (Discord or Google registration), then you were given a random password. If you need to add a password to your account, then you'll need to do these steps:",
@@ -92,5 +92,9 @@
   "git": [
     "For automatic pulling of files from GitHub/GitLab to work properly, you have to do the following:\n- Ensure \"User Uploaded Files\" is DISABLED in Startup settings.\n- Ensure you have NO files in your server.\n- Create an access token. [[GitHub](https://github.com/settings/tokens)] [[GitLab](https://gitlab.com/-/profile/personal_access_tokens)]\n- Ensure that the access token has Read & Write permission to CONTENTS in that repository.\n- Configure the git-related options in the Startup options.\n- Reinstall the server.",
     "If you have verified all of the requirements but files aren't being pulled after you reinstall, it's likely an issue related to the access token you have created."
+  ],
+  "test": [
+    "this bot was made by mallusrgreat so don't beg gamer or other members for new tags and shit",
+    "if you want to add tags then open a pr in [mallusrgreatv2/silly-tags](https://github.com/mallusrgreatv2/silly-tags), and if you got a suggestion then dm mallusrgreat or [open an issue](https://github.com/mallusrgreatv2/silly-tags/issues)"
   ]
 }
