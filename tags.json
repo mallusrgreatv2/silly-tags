@@ -88,5 +88,9 @@
     "The renewal system exists in free panel because the free panel is easily accessible. Since we have a large amount of users and limited resources, if renewal didn't exist, new users wouldn't be able to create new servers at all.",
     "Renewing your server is a way to tell SillyDev that you still care about the server and want to keep it running. If you don't renew your server, your server will automatically deleted after a few days, which opens up slots for other users who might need it.",
     "-# Auto renewals will never be added. It is counter-intuitive to the actual purpose of the renewal system mentioned above. (denied by owner here: https://discord.com/channels/921530640510382100/937009951082156054/1331026324390940722)"
+  ],
+  "git": [
+    "For automatic pulling of files from GitHub/GitLab to work properly, you have to do the following:\n- Ensure \"User Uploaded Files\" is DISABLED in Startup settings.\n- Ensure you have NO files in your server.\n- Create an access token. [[GitHub](https://github.com/settings/tokens)] [[GitLab](https://gitlab.com/-/profile/personal_access_tokens)]\n- Ensure that the access token has Read & Write permission to CONTENTS in that repository.\n- Configure the git-related options in the Startup options.\n- Reinstall the server.",
+    "If you have verified all of the requirements but files aren't being pulled after you reinstall, it's likely an issue related to the access token you have created."
   ]
 }
